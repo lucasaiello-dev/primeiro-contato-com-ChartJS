@@ -12,6 +12,16 @@ body{
     padding: 2.2%;
 }
 
+.text{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5%;
+}
+
 h1{
     text-transform: uppercase;
     color: #3b4543;
@@ -20,30 +30,38 @@ h1{
     margin: 0;
 }
 
-.text{
+.text-p{
     background-color: #3b4543;
-    width: 70%;
-    height: 8%;
+    width: 85%;
+    height: 15%;
     display: flex;
     justify-content: center;
-    margin: 1% 1% 1% 1%;
+    align-items: center;
+    margin: 3% 1% 1% 1%;
     border-radius: 7px;
-}
-
-p{
     font-weight: 440;
     color: white;
-    font-size: 0.95em;
+    font-size: 1.04em;
 }
+
 
 p span{
     font-weight: 650;
     color: #b0e7dd;
 }
 
-.canvas-chart{
-    width: 61vw;
+.charts{
+    width: 85vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 25px;
+    padding: 10px;
     border-radius: 10px;
+}
+
+.canvas-chart{
+    width: 40vw;
+    height: 40vh;
 }
